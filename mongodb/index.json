@@ -10,7 +10,9 @@
     }],
     "intro": {
       "text": "intro.md",
-      "credits": "https://michael.mior.ca/"
+      "credits": "https://michael.mior.ca/",
+      "courseData": "start-server.sh",
+      "code": "start-client.sh"
     },
     "finish": {
       "text": "finish.md"
