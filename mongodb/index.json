@@ -1,0 +1,25 @@
+{
+  "title": "MongoDB",
+  "description": "Try running some queries against MongoDB",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Try queries",
+      "text": "queries.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": "https://michael.mior.ca/"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
