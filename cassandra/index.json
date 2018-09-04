@@ -1,8 +1,6 @@
 {
   "title": "Cassandra",
   "description": "Try running some queries against Cassandra",
-  "difficulty": "beginner",
-  "time": "10 minutes",
   "details": {
     "steps": [{
       "title": "Try queries",

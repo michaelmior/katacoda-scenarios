@@ -1,8 +1,6 @@
 {
   "title": "Redis",
   "description": "Try running some queries against Redis",
-  "difficulty": "beginner",
-  "time": "10 minutes",
   "details": {
     "steps": [{
       "title": "Try queries",

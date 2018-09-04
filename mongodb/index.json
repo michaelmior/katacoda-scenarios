@@ -1,8 +1,6 @@
 {
   "title": "MongoDB",
   "description": "Try running some queries against MongoDB",
-  "difficulty": "beginner",
-  "time": "10 minutes",
   "details": {
     "steps": [{
       "title": "Try queries",
