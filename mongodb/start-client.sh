@@ -1,3 +1,3 @@
 #!/bin/sh
-
-until docker exec -it mongo mongo; do sleep 5; clear; done
+clear
+until docker exec -it mongo mongo --quiet; do sleep 5; clear; done
