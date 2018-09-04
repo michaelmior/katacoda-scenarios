@@ -1,2 +1,5 @@
 #!/bin/sh
-docker run --detach --name=mongo mvertes/alpine-mongo:4.0.1-0
+echo 'db.country.insert([' > country.js
+curl -s 'https://raw.githubusercontent.com/ozlerhakan/mongodb-json-files/master/datasets/country.json' | sed 's/$/,/' >> country.js
+echo '])' >> country.js
+docker run --detach --name=mongo --volume $(pwd):/host mvertes/alpine-mongo:4.0.1-0
