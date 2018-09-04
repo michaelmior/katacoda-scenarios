@@ -16,6 +16,14 @@
     },
     "finish": {
       "text": "finish.md"
+    },
+    "assets": {
+        "client": [
+            {
+                "file": "country.js",
+                "target": "~/"
+            }
+        ]
     }
   },
   "environment": {
