@@ -1,0 +1,27 @@
+{
+  "title": "Cassandra",
+  "description": "Try running some queries against Cassandra",
+  "difficulty": "beginner",
+  "time": "10 minutes",
+  "details": {
+    "steps": [{
+      "title": "Try queries",
+      "text": "queries.md"
+    }],
+    "intro": {
+      "text": "intro.md",
+      "credits": "https://michael.mior.ca/",
+      "courseData": "start-server.sh",
+      "code": "start-client.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
